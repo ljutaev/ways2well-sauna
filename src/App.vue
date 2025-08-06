@@ -6,6 +6,8 @@
     <IsHocattRightSection />
     <PackagesSection />
     <ReadyToSweatSection />
+
+    <CookieConsest />
   </div>
 </template>
 
@@ -17,6 +19,8 @@ import IsHocattRightSection from './components/HocattSection.vue'
 import PackagesSection from './components/PackagesSection.vue'
 import ReadyToSweatSection from './components/ReadyToSweatSection.vue'
 
+import CookieConsest from "./components/CookieConsest/CookieConsest.vue";
+
 export default {
   name: 'App',
   components: {
@@ -25,7 +29,8 @@ export default {
     BenefitsSection,
     IsHocattRightSection,
     PackagesSection,
-    ReadyToSweatSection
+    ReadyToSweatSection,
+    CookieConsest
   }
 }
 </script>
