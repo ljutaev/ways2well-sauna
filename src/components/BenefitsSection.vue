@@ -7,47 +7,42 @@
         <div class="benefits__item">
           <h3 class="benefits__item-title">DETOXIFICATION</h3>
           <p class="benefits__item-description">
-            Ozone & carbonic therapy stimulates anti-oxidant
-            toxins and heavy metals
+            Binds & removes heavy metals, environmental toxins, and free radicals
           </p>
         </div>
 
         <div class="benefits__item">
           <h3 class="benefits__item-title">IMMUNE STRENGTH</h3>
           <p class="benefits__item-description">
-            O-3200 B-Therapy activates and stimulates pain
-            inflammation
+            Supports immune resilience and modulates inflammation
           </p>
         </div>
 
         <div class="benefits__item">
           <h3 class="benefits__item-title">CIRCULATION & OXYGENATION</h3>
           <p class="benefits__item-description">
-            Opens capillaries for improved O2 blood flow
+            Opens capillaries for oxygen‑rich blood flow
           </p>
         </div>
 
         <div class="benefits__item">
           <h3 class="benefits__item-title">METABOLIC UPGRADE</h3>
           <p class="benefits__item-description">
-            Ramps up ATP, collagen production, supports
-            weight management
+            Burn up to 600 calories per session; supports weight management
           </p>
         </div>
 
         <div class="benefits__item">
           <h3 class="benefits__item-title">ATHLETIC RECOVERY</h3>
           <p class="benefits__item-description">
-            Speeds lactic acid clearance, reduces soreness,
-            boosts endurance
+            Speeds lactic‑acid clearance, reduces soreness, boosts endurance
           </p>
         </div>
 
         <div class="benefits__item">
           <h3 class="benefits__item-title">SKIN & ANTI-AGING</h3>
           <p class="benefits__item-description">
-            Stimulates collagen, smooths skin, reduces
-            wrinkles & fine lines
+            Stimulates collagen, smooths skin, reduces cellulite & fine lines
           </p>
         </div>
       </div>
@@ -141,6 +136,9 @@ export default {
 .benefits__item-description {
   border-left: 1px solid #1A1D29;
   padding-left: 24px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 991px) {
@@ -151,6 +149,7 @@ export default {
     margin-bottom: 24px;
     font-size: 28px;
     text-align: left;
+    position: static;
   }
 
   .container {

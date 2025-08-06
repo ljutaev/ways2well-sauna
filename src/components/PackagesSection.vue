@@ -171,13 +171,10 @@ export default {
   }
   .packages__col-item{
     font-size: 16px;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 10px;
     min-height: 62px;
     display: flex;
     align-items: center;
-  }
-  .packages__note {
-    display: none;
   }
 }
 </style>

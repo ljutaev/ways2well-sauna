@@ -322,7 +322,7 @@ function savePreferences() {
 
 .cookie-modal__content-scroll {
   overflow-y: auto;
-  padding-right: 8px;
+  padding-right: 12px;
 }
 
 .cookie-modal__content-scroll::-webkit-scrollbar {

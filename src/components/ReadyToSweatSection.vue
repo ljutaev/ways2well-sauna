@@ -3,7 +3,7 @@
     <div class="container">
       <div class="ready-to-sweat__inner">
         <h2 class="ready-to-sweat__title">READY TO SWEAT SMARTER?</h2>
-        <button class="ready-to-sweat__btn">BOOK NOW FROM $280<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button class="ready-to-sweat__btn">Book Your HOCATT™ Session<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="5.85986" y="13" width="2" height="14" rx="1" transform="rotate(-90 5.85986 13)" fill="#26355E"/>
           <path d="M12.1528 17.2929C11.7622 17.6834 11.7622 18.3166 12.1528 18.7071C12.5433 19.0976 13.1764 19.0976 13.567 18.7071L19.567 12.7071C19.9455 12.3285 19.9588 11.7189 19.597 11.3243L14.097 5.32428C13.7238 4.91716 13.0913 4.88965 12.6841 5.26285C12.277 5.63604 12.2495 6.26861 12.6227 6.67572L17.4757 11.9699L12.1528 17.2929Z" fill="#26355E"/>
         </svg>
@@ -38,6 +38,12 @@ export default {
   top: 0;
   //z-index: -1;
   pointer-events: none;
+}
+
+.ready-to-sweat__bg img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .ready-to-sweat__inner {

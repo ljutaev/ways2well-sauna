@@ -3,9 +3,7 @@
     <div class="container">
       <h2 class="what-is-hocatt__title">WHAT IS HOCATT™?</h2>
       <p class="what-is-hocatt__description">
-        Hyperthermic Ozone & Carbonic Acid Transdermal Technology is a revolutionary
-        wellness solution that combines multiple therapeutic modalities into one powerful
-        30-minute session to optimize cellular health.
+        <strong>Hyperthermic Ozone & Carbonic Acid Transdermal Technology is</strong> a compact personal pod that combines <strong>ten evidence‑based modalities</strong> into a single, powerful treatment designed to optimize cellular health and accelerate recovery.
       </p>
 
       <div class="what-is-hocatt__modalities">
@@ -37,7 +35,7 @@
             <div class="what-is-hocatt__icon">
               <img src="../../assets/images/icons/4.webp" alt="Icon" class="icon">
             </div>
-            <h4 class="what-is-hocatt__item-title">PULSED ELECTROMAGNETIC FIELD OZONE</h4>
+            <h4 class="what-is-hocatt__item-title">Pulsed Electromagnetic Field (PEMF)</h4>
           </div>
 
           <div class="what-is-hocatt__item">
@@ -45,7 +43,7 @@
               <img src="../../assets/images/icons/5.webp" alt="Icon" class="icon">
 
             </div>
-            <h4 class="what-is-hocatt__item-title">PHOTON LIGHT THERAPY</h4>
+            <h4 class="what-is-hocatt__item-title">Photon (LED) Light Therapy</h4>
           </div>
 
           <div class="what-is-hocatt__item">

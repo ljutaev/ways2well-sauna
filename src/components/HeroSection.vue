@@ -26,8 +26,7 @@
             IN ONE 30-MINUTE SESSION
           </p>
           <p class="hero__description">
-            Get a detoxifying full body steam detox that activates your body's<br>
-            natural healing systems. Medicated/naturopathic ozone therapy.
+            Feel the difference after just one sweat: detoxify heavy metals, boost immunity, improve circulation, and flood every cell with revitalizing oxygen.
           </p>
         </div>
 

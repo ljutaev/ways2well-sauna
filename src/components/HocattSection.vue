@@ -17,35 +17,35 @@
               <path d="M22.7537 6.44352C23.2769 5.80597 24.2001 5.72844 24.8157 6.27036C25.4312 6.81228 25.5061 7.76844 24.9828 8.40599L12.5488 23.5567C12.0174 24.2043 11.0757 24.2725 10.4624 23.7079L3.87963 17.6476C3.2758 17.0917 3.22141 16.134 3.75815 15.5086C4.29489 14.8832 5.2195 14.8269 5.82333 15.3828L11.2882 20.414L22.7537 6.44352Z" fill="#34B4F4"/>
             </svg>
 
-            ATHLETES LOOKING FOR RAPID RECOVERY & PERFORMANCE ENHANCEMENT
+            Athletes seeking rapid recovery & performance gains
           </li>
           <li class="is-hocatt-right__item">
             <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M22.7537 6.44352C23.2769 5.80597 24.2001 5.72844 24.8157 6.27036C25.4312 6.81228 25.5061 7.76844 24.9828 8.40599L12.5488 23.5567C12.0174 24.2043 11.0757 24.2725 10.4624 23.7079L3.87963 17.6476C3.2758 17.0917 3.22141 16.134 3.75815 15.5086C4.29489 14.8832 5.2195 14.8269 5.82333 15.3828L11.2882 20.414L22.7537 6.44352Z" fill="#34B4F4"/>
             </svg>
 
-            BUSY PROFESSIONALS NEEDING A COMPREHENSIVE DETOX IN MINIMAL TIME
+            Busy professionals needing a comprehensive detox in minimal time
           </li>
           <li class="is-hocatt-right__item">
             <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M22.7537 6.44352C23.2769 5.80597 24.2001 5.72844 24.8157 6.27036C25.4312 6.81228 25.5061 7.76844 24.9828 8.40599L12.5488 23.5567C12.0174 24.2043 11.0757 24.2725 10.4624 23.7079L3.87963 17.6476C3.2758 17.0917 3.22141 16.134 3.75815 15.5086C4.29489 14.8832 5.2195 14.8269 5.82333 15.3828L11.2882 20.414L22.7537 6.44352Z" fill="#34B4F4"/>
             </svg>
 
-            BIOHACKERS & LONGEVITY ENTHUSIASTS OPTIMISING CELLULAR HEALTH
+            Biohackers & longevity enthusiasts optimizing cellular health
           </li>
           <li class="is-hocatt-right__item">
             <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M22.7537 6.44352C23.2769 5.80597 24.2001 5.72844 24.8157 6.27036C25.4312 6.81228 25.5061 7.76844 24.9828 8.40599L12.5488 23.5567C12.0174 24.2043 11.0757 24.2725 10.4624 23.7079L3.87963 17.6476C3.2758 17.0917 3.22141 16.134 3.75815 15.5086C4.29489 14.8832 5.2195 14.8269 5.82333 15.3828L11.2882 20.414L22.7537 6.44352Z" fill="#34B4F4"/>
             </svg>
 
-            INDIVIDUALS WITH CHRONIC HEALTH CHALLENGES SEEKING ALTERNATIVE OPTIONS
+            Individuals with chronic fatigue, inflammation, or toxic burden
           </li>
           <li class="is-hocatt-right__item">
             <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M22.7537 6.44352C23.2769 5.80597 24.2001 5.72844 24.8157 6.27036C25.4312 6.81228 25.5061 7.76844 24.9828 8.40599L12.5488 23.5567C12.0174 24.2043 11.0757 24.2725 10.4624 23.7079L3.87963 17.6476C3.2758 17.0917 3.22141 16.134 3.75815 15.5086C4.29489 14.8832 5.2195 14.8269 5.82333 15.3828L11.2882 20.414L22.7537 6.44352Z" fill="#34B4F4"/>
             </svg>
 
-            ANYONE READY TO ELEVATE OVERALL WELLNESS IN JUST 30 MINUTES
+            Anyone ready to elevate overall wellness in just 30 minutes
           </li>
         </ul>
       </div>
@@ -146,6 +146,20 @@ export default {
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
+}
+
+.is-hocatt-right__img {
+  animation: pulse-scale 3s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes pulse-scale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05); /* Можеш змінити на 1.1 для сильнішого ефекту */
+  }
 }
 
 @media (max-width: 991px) {
