@@ -117,6 +117,11 @@
   max-height: 52px;
 }
 
+.cookie-banner__button:hover {
+  background: #95d8f9;
+  border-color: #95d8f9;
+}
+
 .cookie-banner__button svg {
   transition: all .3s;
 }
@@ -129,7 +134,8 @@
 
 .cookie-banner__button--outline:hover {
   background: var(--blue, #34B4F4);
-  color: #FFF;
+  color: #26355E;
+  background: #95d8f9;
 }
 
 .cookie-banner__button--primary {
