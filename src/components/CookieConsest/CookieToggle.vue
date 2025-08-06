@@ -31,6 +31,11 @@
   align-items: center;
   justify-content: center;
   background: #26355E;
+  transition: all .3s;
+}
+
+.cookie-toggle:hover {
+  background: #34B4F4;
 }
 
 .cookie-toggle__icon {
@@ -48,6 +53,7 @@
   right: calc(100% + 3px);
   border-right-width: 0;
   border-left-color: #4e4b66;
+  transition: all .3s;
 }
 
 .cookie-toggle:hover::before {
@@ -61,6 +67,7 @@
   width: max-content;
   padding: 4px 8px;
   border-radius: 4px;
+  transition: all .3s;
 }
 
 @media (max-width: 991px) {

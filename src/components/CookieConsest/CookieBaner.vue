@@ -117,6 +117,10 @@
   max-height: 52px;
 }
 
+.cookie-banner__button svg {
+  transition: all .3s;
+}
+
 .cookie-banner__button--outline {
   border-radius: 40px;
   border: 1px solid var(--blue, #34B4F4);
@@ -134,12 +138,11 @@
   border: 1px solid var(--blue, #34B4F4);
 }
 
-.cookie-banner__button--primary:hover {
+.cookie-banner__button--primary:hover svg{
   //background: transparent;
   //border-color: #34B4F4;
   //color: #34B4F4;
-  padding-left: 34px;
-  padding-right: 26px;
+  margin-left: 6px;
 }
 
 .cookie-banner__button span {

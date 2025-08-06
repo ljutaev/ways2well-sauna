@@ -6,6 +6,7 @@
       @rejectAll="handleRejectAll"
       @customize="openPreferences = true"
   />
+  <transition name="cookie-modal">
   <CookiePreferences
       v-if="openPreferences"
       :settings="cookieSettings"
@@ -14,6 +15,7 @@
       @acceptAll="handleAcceptAll"
       @rejectAll="handleRejectAll"
   />
+  </transition>
 </template>
 
 <script setup>

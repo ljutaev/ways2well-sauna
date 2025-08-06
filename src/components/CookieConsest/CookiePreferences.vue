@@ -288,11 +288,11 @@ function savePreferences() {
   width: 28px;
   height: 28px;
   flex-shrink: 0;
+  margin-left: 4px;
 
   border-radius: 90px;
   background: var(--white, #FFF);
   transition: all .3s;
-  margin-bottom: 2px;
 }
 
 .cookie-toggle input {
@@ -300,7 +300,7 @@ function savePreferences() {
 }
 
 .cookie-toggle input:checked + .cookie-toggle__slider {
-  transform: translateX(30px);
+  transform: translateX(26px);
 }
 
 .cookie-toggle:has(:checked) {
@@ -309,6 +309,36 @@ function savePreferences() {
 
 .cookie-toggle:has(:disabled) {
   cursor: not-allowed;
+}
+
+.cookie-modal__content-scroll {
+  max-height: 300px; /* приклад обмеження висоти */
+  overflow-y: auto;
+  padding-right: 8px; /* щоб контент не перекривався скролом */
+}
+
+.cookie-modal__content-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.cookie-modal__content-scroll::-webkit-scrollbar-track {
+  background: #0D0F15;
+  border-radius: 4px;
+}
+
+.cookie-modal__content-scroll::-webkit-scrollbar-thumb {
+  background-color: #34B4F4; /* колір бігунка */
+  border-radius: 4px;
+  border: 2px solid #34B4F4; /* відступ навколо бігунка */
+}
+
+.cookie-modal__content-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #3DDCFF;
+}
+
+.cookie-modal__content-scroll {
+  //scrollbar-width: thin; /* тонкий скрол */
+  //scrollbar-color: #34B4F4 #1a1a1a; /* бігунок і фон треку */
 }
 
 @media (max-width: 991px) {
@@ -366,6 +396,30 @@ function savePreferences() {
     overflow-y: scroll;
     overflow-x: hidden;
   }
+}
+
+.cookie-modal-enter-active,
+.cookie-modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.cookie-modal-enter-from,
+.cookie-modal-leave-to {
+  opacity: 0;
+}
+
+/* Контейнер, який виїжджає зліва */
+.cookie-modal__container {
+  transition: transform 0.4s ease;
+  //transform: translateX(-200%);
+}
+
+.cookie-modal-enter-active .cookie-modal__container {
+  transform: translateX(-200%);
+}
+
+.cookie-modal-leave-active .cookie-modal__container {
+  transform: translateX(0);
 }
 
 </style>
