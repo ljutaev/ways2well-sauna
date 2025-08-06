@@ -11,6 +11,7 @@
       </div>
 
       <div class="cookie-modal__content">
+        <div class="cookie-modal__content-wrap">
         <div class="cookie-modal__content-scroll">
         <div class="cookie-modal__content-inner">
         <p class="cookie-modal__description">
@@ -59,6 +60,7 @@
               {{ cookie.description }}
             </p>
           </div>
+        </div>
         </div>
         </div>
         </div>
@@ -122,7 +124,7 @@ function savePreferences() {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px 20px;
+  padding: 0 20px 0;
   position: relative;
 }
 
@@ -136,7 +138,7 @@ function savePreferences() {
   font-weight: 1000;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-bottom: 2px solid var(--Grey, #0D0F15);
+  //border-bottom: 2px solid var(--Grey, #0D0F15);
   line-height: 80px;
   width: 100%;
 }
@@ -166,15 +168,16 @@ function savePreferences() {
 
 .cookie-modal__content-scroll {
   max-height: 395px;
-  overflow-y: scroll;
   padding-right: 1rem;
-  border-radius: 24px;
-
 }
-.cookie-modal__content-inner {
+.cookie-modal__content-wrap {
   background: #0D0F15;
   border-radius: 12px;
-  padding: 20px;
+  padding: 20px 5px 20px 20px;
+}
+
+.cookie-modal__content-inner {
+
 }
 
 .cookie-modal__description {
@@ -318,9 +321,8 @@ function savePreferences() {
 }
 
 .cookie-modal__content-scroll {
-  max-height: 300px; /* приклад обмеження висоти */
   overflow-y: auto;
-  padding-right: 8px; /* щоб контент не перекривався скролом */
+  padding-right: 8px;
 }
 
 .cookie-modal__content-scroll::-webkit-scrollbar {

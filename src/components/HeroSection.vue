@@ -1,7 +1,18 @@
 <template>
   <section class="hero">
     <div class="hero__image">
-      <img src="../../assets/images/hero-banner.jpg" alt="Person in HOCATT Ozone Sauna" class="hero__img">
+<!--      <img src="../../assets/images/hero-banner.jpg" alt="Person in HOCATT Ozone Sauna" class="hero__img">-->
+
+      <video
+          class="hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+      >
+        <source src="../../assets/images/video.webm" type="video/webm" />
+
+      </video>
     </div>
     <div class="container">
       <div class="hero__content">
@@ -58,6 +69,13 @@ export default {
   height: 597px;
   background: linear-gradient(0deg, #1A1D29 30.9%, rgba(26, 29, 41, 0) 75.28%);
   z-index: 5;
+}
+
+.hero__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .container {

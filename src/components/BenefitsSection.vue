@@ -75,6 +75,7 @@ export default {
 
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  align-items: start;
 }
 
 .benefits__title {
@@ -89,6 +90,9 @@ export default {
   margin-bottom: 64px;
 
   grid-column: span 4;
+
+  position: sticky;
+  top: 40px;
 }
 
 .benefits__list {
@@ -135,7 +139,7 @@ export default {
 }
 
 .benefits__item-description {
-  border-left: 1px solid rgba(79, 80, 88, 0.30);
+  border-left: 1px solid #1A1D29;
   padding-left: 24px;
 }
 
@@ -162,6 +166,7 @@ export default {
 
   .benefits__item-title {
     font-size: 18px;
+
   }
 
   .benefits__item-description {

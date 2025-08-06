@@ -77,13 +77,33 @@ export default {
 .packages__col:first-child::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  //bottom: 0;
   //height: 140px;
-  top: 66px;
+  //top: 66px;
   left: 0;
   right: 0;
   pointer-events: none;
+  //background: linear-gradient(180deg, rgba(52, 180, 244, 0.20) 0%, #0D0F15 100%);
   background: linear-gradient(180deg, rgba(52, 180, 244, 0.20) 0%, #0D0F15 100%);
+
+  height: 66px;
+  bottom: 0;
+}
+
+.packages__col:first-child::after {
+  content: "";
+  position: absolute;
+  //bottom: 0;
+  //height: 140px;
+  //top: 66px;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  //background: linear-gradient(180deg, rgba(52, 180, 244, 0.20) 0%, #0D0F15 100%);
+  background: linear-gradient(180deg, rgba(52, 180, 244, 0.5) 0%, #0D0F15 100%);
+
+  top: 66px;
+  bottom: 0;
 }
 
 .packages__col:first-child .packages__col-item:not(:last-child) {
