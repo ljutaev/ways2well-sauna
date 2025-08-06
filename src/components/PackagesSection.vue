@@ -167,7 +167,7 @@ export default {
   }
   .packages__col-title {
     font-size: 16px;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 10px;
   }
   .packages__col-item{
     font-size: 16px;
