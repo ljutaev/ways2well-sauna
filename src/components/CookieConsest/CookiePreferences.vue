@@ -145,6 +145,12 @@ function savePreferences() {
   background: none;
   border: none;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.cookie-modal__close:hover {
+  transform: scale(1.1);
+
 }
 
 .cookie-modal__footer {
