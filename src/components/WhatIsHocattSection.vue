@@ -66,7 +66,7 @@
 
           <div class="what-is-hocatt__item">
             <div class="what-is-hocatt__icon">
-              <img src="../../assets/images/icons/1.webp" alt="Icon" class="icon">
+              <img src="../../assets/images/icons/9.webp" alt="Icon" class="icon">
 
             </div>
             <h4 class="what-is-hocatt__item-title">Aromatherapy</h4>
@@ -74,7 +74,7 @@
 
           <div class="what-is-hocatt__item">
             <div class="what-is-hocatt__icon">
-              <img src="../../assets/images/icons/9.webp" alt="Icon" class="icon">
+              <img src="../../assets/images/icons/8.webp" alt="Icon" class="icon">
 
             </div>
             <h4 class="what-is-hocatt__item-title">Ultraviolet
