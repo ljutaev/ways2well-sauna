@@ -26,7 +26,7 @@
             IN ONE 30-MINUTE SESSION
           </p>
           <p class="hero__description">
-            Feel the difference after just one sweat: detoxify heavy metals, boost immunity, improve circulation, and flood every cell with revitalizing oxygen.
+            Feel the difference after just one sweat: detoxify heavy metals, boost immunity,<br> improve circulation, and flood every cell with revitalizing oxygen.
           </p>
         </div>
 

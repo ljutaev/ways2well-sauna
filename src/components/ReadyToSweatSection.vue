@@ -33,15 +33,17 @@ export default {
 .ready-to-sweat__bg{
   position: absolute;
   left: -2px;
-  right: 0;
+  right: -3px;
   bottom: 0;
   top: 0;
   //z-index: -1;
   pointer-events: none;
+
 }
 
 .ready-to-sweat__bg img{
-  max-width: 100%;
+  max-width: 102%;
+  width: 102%;
   height: 100%;
   object-fit: cover;
 }
